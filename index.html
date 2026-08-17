@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ITX Mining</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
 
+<body>
+
+<div class="app">
+
+<div class="header">
+<h2>⛏️ ITX Mining</h2>
+<div id="profile">👤</div>
+</div>
+
+
+<div class="balance-card">
+<p>Current Balance</p>
+<h1 id="balance">0.000 ITX</h1>
+
+<div class="stats">
+<div>
+<span>⚡ Speed</span>
+<b id="speed">0 ITX/H</b>
+</div>
+
+<div>
+<span>💰 Earned</span>
+<b id="earned">0.000</b>
+</div>
+</div>
+</div>
+
+
+<button class="mine-btn" onclick="startMining()">
+⛏️ Start Mining
+</button>
+
+
+<div class="menu">
+
+<button onclick="openPage('tasks')">
+🎯 Tasks
+</button>
+
+<button onclick="openPage('referral')">
+👥 Referral
+</button>
+
+<button onclick="openPage('kyc')">
+🪪 KYC
+</button>
+
+<button onclick="openPage('withdraw')">
+💸 Withdraw
+</button>
+
+</div>
+
+
+<div id="content">
+
+<h3>Welcome to ITX Mining</h3>
+<p>Start mining ITX and complete tasks.</p>
+
+</div>
+
+
+</div>
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
