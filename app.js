@@ -12,7 +12,7 @@ tg.expand();
 
 const SUPABASE_URL = "https://dxdhoykekdbsdrnvxxdo.supabase.co";
 
-const SUPABASE_KEY = "তোর Publish Key এখানে বসাবি";
+const SUPABASE_KEY = "sb_publishable_Z7gGDLP6KnIVDQ-LDQalSg_1sgEg3fj";
 
 
 const db = supabase.createClient(
